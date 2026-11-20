@@ -1,0 +1,12 @@
+{
+  // Cloudflare Workers config: serves this folder as a static site.
+  "name": "parr-set",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./"
+  },
+  "routes": [
+    { "pattern": "parrset.com", "custom_domain": true },
+    { "pattern": "www.parrset.com", "custom_domain": true }
+  ]
+}

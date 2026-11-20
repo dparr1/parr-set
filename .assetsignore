@@ -1,0 +1,6 @@
+# Files Cloudflare should not publish
+.git
+wrangler.jsonc
+.assetsignore
+README.md
+cards/crop_cards.py
