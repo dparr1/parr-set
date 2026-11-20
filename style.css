@@ -1,0 +1,129 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bfbfbf;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cardsOnTable {
+        border-spacing: 5px;
+        max-width: 900px;
+        width: 100%;
+}
+
+td {
+    /* background-color: white; */
+    border: 3px solid #bfbfbf;
+}
+
+td {
+    vertical-align: center;
+    text-align: center;
+}
+
+.cardtd {
+   /* height: 80px;
+    width: 135px; */
+    width: 32%; 
+    height: auto;
+}
+
+.cardtd img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.sel {
+   /* height: 65px;
+    width: 110px;      */
+    width: 88px;
+    height: 45px;
+    background-color: white;
+}
+
+.sel img {
+    width: 88px;
+    height: 45px;
+}
+
+ul {
+    color: red;
+    display: table;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    padding: 5px;
+}
+
+.left {
+    flex:  10%;
+}
+
+.center {
+    flex: 65%;
+}
+
+.right {
+    flex: 25%;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.topright {
+    flex: 40%;
+    text-align: center;
+}
+
+.topleft {
+    flex: 60%;
+    text-align: center;
+}
+
+#notification {
+    color: #bfbfbf;
+}
+
+#deckCount {
+    padding: 0;
+    margin: 0;
+}
+
+#previousSelection {
+    padding: 0;
+    margin: auto;
+    max-width: 310px;
+    border-spacing: 5px;
+    width: 100%;
+}
+
+#timer {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+@media (max-width: 1070px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
